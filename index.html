@@ -23,6 +23,9 @@
 	<link href="css/style.css" rel="stylesheet" />
 	<!-- jQuery 3.5.1 -->
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:600&subset=latin" type="text/css" rel="stylesheet">
+	<link href="https://www.alfacoins.com/sites/all/modules/merchant/css/merchant.button.css" rel="stylesheet">
+	<script type="text/javascript" src="https://www.alfacoins.com/sites/all/modules/merchant/js/btn-svg.js"></script>
 </head>
 
 <body>
@@ -630,7 +633,7 @@
 									</div>
 								</div>
 							</div>
-							<h3 class="medium pt-20 pb-20">Bounty, referral program, community</h3>
+							<h3 class="medium pt-20 pb-20" id="ref">Bounty, referral program, community</h3>
 
 							<div class="card">
 								<div class="card-header">
@@ -704,13 +707,13 @@
 							<div class="card">
 								<div class="card-header">
 									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
-										href="#collapse30">Now you can:</a>
+										href="#collapse40">Now you can:</a>
 								</div>
-								<div id="collapse30" class="panel-collapse collapse in">
+								<div id="collapse40" class="panel-collapse collapse in">
 									<div class="card-body">
 										<p>
 											<ul>
-												<li>create wallet using <span class="badge badge-secondary">soon</span></li>
+												<li>create wallet using ...<span class="badge badge-secondary">soon</span></li>
 												<li>send and receive PNKSNK <span class="badge badge-secondary">soon</span></li>
 												<li>create your own referral link to this page i.e. https://pinksnake.org/?referer=address where address - your address like 0x2abc...</li>
 												<li>as one of 100 first nodes receive 2x more base tokens</li>
@@ -721,6 +724,44 @@
 													adopters/advisors(if you will get us advice) on the main page. Create new ticket in <a href="https://github.com/webtokenization/website/issues">Github issues</a> with your pinksnake address and payment id when donation completed.</li>
 											</ul>
 											All communications we make through <a href="https://github.com/webtokenization/website/issues">Github issues</a>. We also have Telegram chat with early adopters/advisors.
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<h3 class="medium pt-20 pb-20">How to ..</h3>
+							<div class="card">
+								<div class="card-header">
+									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
+										href="#collapse50">How to earn tokens?</a>
+								</div>
+								<div id="collapse50" class="panel-collapse collapse in">
+									<div class="card-body">
+										<p>
+											<ul>
+												<li>create your own referral link to this page i.e. https://pinksnake.org/?referer=address where address - your address like 0x2abc... and read <a href="#ref">terms and conditions of our referral programm</a>. That's all, earn your base tokens from referers!</li>
+												<li>became a node and earn base tokens</li>
+												<li>became an agent and earn base tokens</li>
+												<li>as one of first 100 donors receive 10 base tokens for free for any constructive advice using <a href="https://github.com/webtokenization/website/issues">Github issues</a></li>
+												<li>as one of first 100 donors receive 100 base
+													tokens for donating more than 0.05 BTC and take advantage to be present as early
+													adopters/advisors(if you will get us advice) on the main page. Create new ticket in <a href="https://github.com/webtokenization/website/issues">Github issues</a> with your pinksnake address and payment id when donation completed.</li>
+											</ul>
+											<form id="alfacoins-checkout-form" method="post" action="https://www.alfacoins.com/checkout"> <input name="button_id" value="5f7c1ff5e1997" type="hidden"> <div class="alfacoins-btn alfacoins-btn-default alfacoins-btn-4 alfacoins-btn-cur-BTC"> <div class="alfacoins-btn-body alfacoins-btn-4-body" onclick="document.getElementById('alfacoins-checkout-form').submit();"> <div class="alfacoins-btn-border alfacoins-btn-4-border"> <div class="alfacoins-btn-inner alfacoins-btn-4-inner"> <svg class="ico-21 ico-svg"><use xlink:href="#BTC-alt"></use></svg> <span> Donate now </span> </div> </div> </div> </div>
+											</form>
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-header">
+									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
+										href="#collapse51">How to create address?</a>
+								</div>
+								<div id="collapse51" class="panel-collapse collapse in">
+									<div class="card-body">
+										<p>
+											You can use your ETH private key and public key generation method, generate it on your own using examples on Github or (easiest way) using one of open source wallets <span class="badge badge-secondary">soon</span>.
 										</p>
 									</div>
 								</div>
